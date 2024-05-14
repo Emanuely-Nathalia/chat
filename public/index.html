@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Telegram</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAclBMVEX///8oqOkop+gpquwpqeskot8joNwnpuYlo+Ejn9skod4joN0mpeQnp+clouAmpOMAn+L4/P7n8/sApOsAmdlQte7V6vng8Pqz2vTL5fft9vuQzfNwv/Azrex7xPGh0/RbtemFxe1ErOWXy+10u+VptuSrAuRNAAACXUlEQVRIiZWX65qCIBCGWXTbDFfHwFOWBun93+KCeQBEY78fPTrNywzDQISQS2XV3PNHEDzye1OVTheH6jakNAzDQCqUj5S2tQfWhXREdElTl33A6Bab2O4AKwLqpEbRYDdhvhNtCcqdWJYfhJuC5o6Z3mQFPXTbcF7Ylsz84imZ2eb4y1NhbtXTW3ptC+obT4mu6/nlnagSxjPX/SugDDl3H+B/ir4r230GKRa6E7xDfqIA80IVULcprobfA2HIq/eEsGYFVdgWH1DA54Mj08fH7WFpQFRrf10NP5DnEvw4BXAv9OaqDT8oUeUEATfWNjD9oEJNGttKZY4L0E6Ppl/aoLsjx1pLUEzTNP3wgPIffSSJ8eu6S9uFQ8L0E+hh5BhrdUR1DGJ5AWs+SMeexgHYAjy11bDBdFFslj8FGPTVSE2heH4C49TkkEKvvXcWGKM8Xcnld6mIwRqotUCBhuQ8K4GY17I4Nw7JGV46h8TqNroOqEn0gQBACJAmi0NWwITLVjKGOkur+hQmd7W8ZMuVlmlKxQJrG5TlcILn5Gmc2J0NSltPvl0iUGmg5UT6MYvELRjWoN/WV2OL7XBKcwtm1uAw5e/MVSphU9CCGfZprTK2w6nJkDHoy5wiTHPo2H6yF9ZfUUkuuo0tzUHIZV+EEWYayFKzgu1ATjFt13Jy8hYzdo0g3jKbMfMHravOjUQ+eUZse9HxISOy4WS2gn2si3BfPjmLDsXcl0CpOjpAWXR0T36xHZSx1wGmZipR4sI+XK3HhHumwUS+9D6X+VFlxQdxiqKTGPjO34c/uQNUX4h1QbEAAAAASUVORK5CYII=" type="image/x-icon">
+  </head>
+  <body>
+   
+      <div class="celular">
+        <div class="cabecalho">
+          <div class="fotoPerfil">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAclBMVEX///8oqOkop+gpquwpqeskot8joNwnpuYlo+Ejn9skod4joN0mpeQnp+clouAmpOMAn+L4/P7n8/sApOsAmdlQte7V6vng8Pqz2vTL5fft9vuQzfNwv/Azrex7xPGh0/RbtemFxe1ErOWXy+10u+VptuSrAuRNAAACXUlEQVRIiZWX65qCIBCGWXTbDFfHwFOWBun93+KCeQBEY78fPTrNywzDQISQS2XV3PNHEDzye1OVTheH6jakNAzDQCqUj5S2tQfWhXREdElTl33A6Bab2O4AKwLqpEbRYDdhvhNtCcqdWJYfhJuC5o6Z3mQFPXTbcF7Ylsz84imZ2eb4y1NhbtXTW3ptC+obT4mu6/nlnagSxjPX/SugDDl3H+B/ir4r230GKRa6E7xDfqIA80IVULcprobfA2HIq/eEsGYFVdgWH1DA54Mj08fH7WFpQFRrf10NP5DnEvw4BXAv9OaqDT8oUeUEATfWNjD9oEJNGttKZY4L0E6Ppl/aoLsjx1pLUEzTNP3wgPIffSSJ8eu6S9uFQ8L0E+hh5BhrdUR1DGJ5AWs+SMeexgHYAjy11bDBdFFslj8FGPTVSE2heH4C49TkkEKvvXcWGKM8Xcnld6mIwRqotUCBhuQ8K4GY17I4Nw7JGV46h8TqNroOqEn0gQBACJAmi0NWwITLVjKGOkur+hQmd7W8ZMuVlmlKxQJrG5TlcILn5Gmc2J0NSltPvl0iUGmg5UT6MYvELRjWoN/WV2OL7XBKcwtm1uAw5e/MVSphU9CCGfZprTK2w6nJkDHoy5wiTHPo2H6yF9ZfUUkuuo0tzUHIZV+EEWYayFKzgu1ATjFt13Jy8hYzdo0g3jKbMfMHravOjUQ+eUZse9HxISOy4WS2gn2si3BfPjmLDsXcl0CpOjpAWXR0T36xHZSx1wGmZipR4sI+XK3HhHumwUS+9D6X+VFlxQdxiqKTGPjO34c/uQNUX4h1QbEAAAAASUVORK5CYII=" alt="">
+          </div>
+          <div class="nome">
+            <h3>Telegram</h3>
+          </div>
+          <div class="icones">
+            <a href="" style="color: antiquewhite;"><ion-icon name="camera-outline"></ion-icon></a>
+           <a href="" style="color: aliceblue;"><ion-icon name="search-outline"></ion-icon></a>
+          </div>
+        </div>
+        <br><br>
+      <div>
+        <ul id="mensagens"></ul>
+      </div>
+
+      <div class="paraEnviar">
+        <form>
+          <input type="text" id="nome" placeholder="Nome de usuário"/> <br><br>
+          <input type="text" id="mensagem" placeholder="Mensagem"/><br><br>
+          <button>ENVIAR</button>
+        </form>
+      </div>
+    
+
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+
+        //sorteio
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        var idSorteio = getRandomInt(1, 10000);
+
+        console.log(idSorteio)
+
+      //Criar uma instancia do socket.io
+          const socket = io();
+          //Seleciona o valor do input nome de usuário
+                const nomeInput = document.getElementById('nome');
+                document.querySelector('form').addEventListener('submit', event => {
+                    //Padrão de envios
+                    event.preventDefault();
+
+                    const nome = nomeInput.value;
+                    const mensagem = mensagemInput.value;
+
+                    //Verificar se os valores estão branco
+                    if (nome.trim() && mensagem.trim()) {
+                        socket.emit('chat message', { nome, mensagem,idSorteio });
+                          //Limpar o input da mensagem
+                          mensagemInput.value = '';
+                          //Oculta o input do usuário
+                          nomeInput.style.display = 'none';
+                      }
+                  });
+
+
+
+                  //Seleciona o valor do input da mensagem
+                  const mensagemInput = document.getElementById('mensagem');
+                  //Seleciona a lista de mensagens
+                  const mensagens = document.getElementById('mensagens');
+
+                  //Evento de envio do formulário
+                  document.querySelector('form').addEventListener('submit', event => {
+                      //Padrão de envios
+                      event.preventDefault();
+
+                      const nome = nomeInput.value;
+                      const mensagem = mensagemInput.value;
+
+                      //Verificar se os valores estão branco
+                      nome.trim() && mensagem.trim() && socket.emit('chat message', {nome, mensagem});
+                      //Limpar o input da mensagem
+                      mensagemInput.value = '';
+                      //Desabilita o input do usuário
+                      nomeInput.disabled = true;
+                  });
+
+                  socket.on('chat message', dados => {
+    // Criar um elemento de lista para exibir a mensagem
+    const lista = document.createElement('li');
+    // Define o texto da mensagem
+    lista.textContent = `${dados.nome}: ${dados.mensagem}`;
+
+    // Verifica se a mensagem foi enviada ou recebida
+    if (idSorteio === dados.idSorteio) {
+        // Se for enviada, aplica a classe 'enviada'
+        lista.className = 'enviada';
+    } else {
+        // Se for recebida, aplica a classe 'recebida'
+        lista.className = 'recebida';
+    }
+
+    // Adiciona o elemento de lista de mensagem
+    mensagens.appendChild(lista);
+});
+    </script>
+
+  </body>
+</html>
